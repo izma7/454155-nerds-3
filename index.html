@@ -5,8 +5,155 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
+  	<header class="main-header">
+  		<nav class="main-navigation">
+  			<a class="main-header-logo">
+  				<img src="img/svg/nerds-logo.svg" width="160" height="49" alt="Логотип магазина «Nerds»">
+  			</a>
+  			<ul class="site-navigation">
+          <li><a href="studio.html">Студия</a></li>
+          <li><a href="clients.html">Клиенты</a></li>
+          <li><a href="shop.html">Магазин</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+  			</ul>
+        <ul>
+          <li><a href="basket-link">Корзина</a></li>
+        </ul>
+  		</nav>
+  	</header>
+    <main class="container">
+      <h1 class="visually-hidden">Магазин-студия Nerds</h1>
+    	<section class="slide">
+        <ul class="slide-list">
+          <li class="slide-item">
+            <h2>Долго, дорого, скрупулезно</h2>
+            <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+            <img src="img/png/slide1.png" width="698" height="413" alt="Слайд 1»">
+            <a class="button" href="learn-more1.html">Узнать больше</a>
+          </li>
+          <li class="slide-item">
+            <h2>Любим математику как никто другой</h2>
+            <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+            <img src="img/png/slide2.png" width="663" height="430" alt="Слайд 2»">
+            <a class="button" href="learn-more2.html">Узнать больше</a>
+          </li>
+          <li class="slide-item">
+            <h2>Только ночь, только хардкор</h2>
+            <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+            <img src="img/png/slide3.png" width="759" height="411" alt="Слайд 3»">
+            <a class="button" href="learn-more3.html">Узнать больше</a>
+          </li>
+        </ul>
+        <div class="slider">
+          <div class="slider-toggles">
+            <button class="toggle"></button>
+            <button class="toggle"></button>
+            <button class="toggle"></button>
+          </div>
+        </div>
+    	</section>
+      <section class="service">
+        <ul class="service-list">
+          <li class="service-item">
+            <img src="img/png/service-1.png" width="300" height="146" alt="Веб-сайты">
+            <h2>Веб-сайты</h2>
+            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <a class="button" href="order.html">Заказать</a>
+          </li>
+          <li class="service-item">
+            <img src="img/png/service-2.png" width="300" height="146" alt="Приложения">
+            <h2>Приложения</h2>
+            <p>Покорите топ-10 приложения в AppStore и Google Play</p>
+            <a class="button" href="order.html">Заказать</a>
+          </li>
+          <li class="service-item">
+            <img src="img/png/service-3.png" width="300" height="146" alt="Презентации">
+            <h2>Презентация</h2>
+            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+            <a class="button" href="order.html">Заказать</a>
+          </li>
+        </ul>
+      </section>
+      <section class="about">
+        <div class="smallstudio">
+          <b>Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
+          <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+          <p>Выполняем заказы на разработку:</p>
+          <ul>
+            <li>Веб-сайтов любой сложности</li>
+            <li>Мобильных приложений для iOS и Android</li>
+            <li>Слайд-шоу и видео для корпоративных презентаций</li>
+          </ul>
+        </div>
+        <div>
+          <img src="img/png/logo-nerds.png" width="360" height="208" alt="Логотип Nerds">
+          <p>С 2004 года любим точность во всем:</p>
+          <ul>
+            <li>
+              <p>146%</p>
+              <p>Уровень самоотдачи</p>
+            </li>
+            <li>
+              <p>100%</p>
+              <p>Соблюдение сроков</p>
+            </li>
+            <li>
+              <p>50%</p>
+              <p>Минимальная предоплата</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="main-partners">
+        <ul class="partners-list">
+          <li>
+            <a href="htmlacademy.ru"><img src="img/png/logo-htmlacademy.png" width="199" height="68" alt="Логотип htmlacademy"></a>
+          </li>
+          <li>
+            <a href="borodinsky.ru"><img src="img/png/logo-borodinski.png" width="209" height="90" alt="Логотип BORODINSKI"></a>
+          </li>
+          <li>
+            <a href="pink.ru"><img src="img/png/logo-pink.png" width="185" height="52" alt="Логотип PINK"></a>
+          </li>
+          <li>
+            <a href="mishka.ru"><img src="img/png/logo-mishka.png" width="173" height="84" alt="Логотип MISHKA"></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+      <footer class="main-footer">
+        <div class="footer-map">
+          <img src="img/png/map.png" width="1440" height="416" alt="Местоположение Nerds">
+          <div class="footer-contacts">
+            <b>Nerds design studio</b>
+            <p>
+              191186, Санкт-Петербург,<br>
+              ул. Б. Конюшенная, д. 19/8<br>
+              <br>
+              тел. +7 (812) 275-75-75
+            </p>
+            <a class="button" href="writeus.html"></a>
+          </div>
+        </div>
+        <div class="footer-social">
+          <ul>
+            <li><a class="social-button" href="#">Вконтакте</a></li>
+            <li><a class="social-button" href="#">Фейсбук</a></li>
+            <li><a class="social-button" href="#">Инстаграм</a></li>
+          </ul>
+         p</div>
+        <b>Давайте дружить, это выгодно!</b>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </footer>
+      <section class="modal modal-writeus">
+        <h2>Напишите нам</h2>
+        <p>Ваше имя</p>
+        <!--Форма-->
+        <p>Ваше e-mail:</p>
+        <!--Форма-->
+        <p>Текст письма</p>
+        <!--Форма-->
+        <span class="modal-close"></span>
+      </section>
   </body>
 </html>
